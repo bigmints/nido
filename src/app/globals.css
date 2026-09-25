@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 251 246 238;
+  --surface: 255 253 249;
+  --surface2: 246 238 226;
+  --ink: 43 35 32;
+  --muted: 112 97 90;
+  --line: 232 222 208;
+  --accent: 197 56 104;
+  --accent-ink: 255 255 255;
+  --rose: 250 221 230;
+  --sage: 218 233 218;
+  --butter: 251 236 190;
+  --lilac: 230 222 247;
+  --sky: 214 232 247;
+  --shadow: 90 55 40;
+  color-scheme: light;
+}
+
+.dark {
+  --bg: 24 19 22;
+  --surface: 34 28 32;
+  --surface2: 47 39 44;
+  --ink: 246 238 233;
+  --muted: 182 168 163;
+  --line: 64 54 59;
+  --accent: 240 118 156;
+  --accent-ink: 40 14 25;
+  --rose: 78 42 57;
+  --sage: 40 58 46;
+  --butter: 76 64 32;
+  --lilac: 56 48 82;
+  --sky: 36 57 78;
+  --shadow: 0 0 0;
+  color-scheme: dark;
+}
+
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  @apply bg-bg font-sans text-ink antialiased;
+  min-height: 100dvh;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(40rem 28rem at 8% -6%, rgb(var(--rose) / 0.85), transparent 70%),
+    radial-gradient(34rem 26rem at 100% 8%, rgb(var(--butter) / 0.6), transparent 70%),
+    radial-gradient(36rem 30rem at 60% 110%, rgb(var(--lilac) / 0.7), transparent 70%);
+}
+
+:focus-visible {
+  outline: 2px solid rgb(var(--accent));
+  outline-offset: 2px;
+  border-radius: 0.5rem;
+}
+
+h1,
+h2,
+h3 {
+  @apply font-display;
+}
+
+@layer components {
+  .card {
+    @apply rounded-2xl border border-line bg-surface shadow-soft;
+  }
+  .btn {
+    @apply inline-flex min-h-[40px] items-center justify-center gap-2 rounded-full px-4 py-2 text-sm font-semibold transition duration-200 active:scale-[.97] disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply bg-accent text-accent-ink shadow-soft hover:brightness-110;
+  }
+  .btn-soft {
+    @apply bg-surface2 text-ink hover:brightness-95;
+  }
+  .btn-outline {
+    @apply border border-line bg-surface text-ink hover:bg-surface2;
+  }
+  .btn-danger {
+    @apply border border-line bg-surface text-[#b3261e] hover:bg-surface2 dark:text-[#ff9c94];
+  }
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full border border-line bg-surface px-3 py-1 text-xs font-medium text-ink;
+  }
+  .chip-on {
+    @apply border-transparent bg-accent text-accent-ink;
+  }
+  .input {
+    @apply min-h-[44px] w-full rounded-xl border border-line bg-surface px-3 py-2 text-sm text-ink placeholder:text-muted;
+  }
+  .label {
+    @apply mb-1 block text-xs font-semibold uppercase tracking-wide text-muted;
+  }
+  .page-in {
+    @apply animate-rise;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+/* dnd-kit: prevent the page from scrolling while dragging on touch */
+.touch-none-drag {
+  touch-action: none;
+}
+
+.recipe-art {
+  background:
+    radial-gradient(circle at 20% 20%, rgb(255 255 255 / 0.55) 0 18%, transparent 19%),
+    radial-gradient(circle at 85% 80%, rgb(255 255 255 / 0.4) 0 14%, transparent 15%),
+    linear-gradient(135deg, hsl(var(--h) 85% 88%), hsl(calc(var(--h) + 35) 78% 78%));
+}
+.dark .recipe-art {
+  background:
+    radial-gradient(circle at 20% 20%, rgb(255 255 255 / 0.1) 0 18%, transparent 19%),
+    radial-gradient(circle at 85% 80%, rgb(255 255 255 / 0.07) 0 14%, transparent 15%),
+    linear-gradient(135deg, hsl(var(--h) 35% 24%), hsl(calc(var(--h) + 35) 38% 32%));
+}

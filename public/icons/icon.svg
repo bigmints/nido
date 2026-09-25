@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e0578a"/>
+      <stop offset="1" stop-color="#b52f5f"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="120" fill="url(#bg)"/>
+  <g id="art">
+    <!-- back rim of the nest -->
+    <ellipse cx="256" cy="292" rx="166" ry="34" fill="#dfb78f"/>
+    <!-- eggs -->
+    <ellipse cx="212" cy="246" rx="46" ry="60" fill="#fffaf2" transform="rotate(-8 212 246)"/>
+    <ellipse cx="206" cy="228" rx="10" ry="16" fill="#fff" opacity=".9" transform="rotate(-8 206 228)"/>
+    <ellipse cx="302" cy="254" rx="42" ry="55" fill="#f7c5d6" transform="rotate(10 302 254)"/>
+    <ellipse cx="312" cy="234" rx="9" ry="14" fill="#fff" opacity=".6" transform="rotate(10 312 234)"/>
+    <!-- front of the nest -->
+    <path d="M90 292 Q256 350 422 292 C414 384 344 430 256 430 S98 384 90 292 Z" fill="#fbecd9"/>
+    <g fill="none" stroke="#c8895f" stroke-width="9" stroke-linecap="round" opacity=".8">
+      <path d="M118 326 Q256 392 394 326"/>
+      <path d="M138 366 Q256 424 374 366"/>
+      <path d="M176 318 L212 410M256 342 L250 424M338 320 L300 408"/>
+    </g>
+  </g>
+</svg>

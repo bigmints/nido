@@ -1,0 +1,1961 @@
+[
+ {
+  "id": "tostada-aguacate",
+  "name": "Tostada de aguacate y huevo",
+  "emoji": "🥑",
+  "hue": 95,
+  "meals": [
+   "breakfast"
+  ],
+  "time": 10,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "2 u pan",
+   "1 u aguacate",
+   "2 u huevo",
+   "1 u limón",
+   "1 pizca sal",
+   "1 pizca pimienta"
+  ],
+  "steps": [
+   "Tuesta el pan.",
+   "Machaca el aguacate con limón, sal y pimienta y úntalo.",
+   "Fríe o escalfa los huevos y colócalos encima."
+  ]
+ },
+ {
+  "id": "porridge-manzana",
+  "name": "Porridge de avena con manzana y canela",
+  "emoji": "🍎",
+  "hue": 20,
+  "meals": [
+   "breakfast"
+  ],
+  "time": 10,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "80 g avena",
+   "400 ml leche",
+   "1 u manzana",
+   "1 cdta canela",
+   "1 cda miel"
+  ],
+  "steps": [
+   "Calienta la avena con la leche a fuego suave removiendo 5 minutos.",
+   "Añade la manzana troceada y la canela.",
+   "Sirve con un hilo de miel."
+  ]
+ },
+ {
+  "id": "yogur-granola",
+  "name": "Bowl de yogur, granola y fresas",
+  "emoji": "🍓",
+  "hue": 345,
+  "meals": [
+   "breakfast"
+  ],
+  "time": 5,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "300 g yogur natural",
+   "60 g granola",
+   "150 g fresa",
+   "1 cda miel"
+  ],
+  "steps": [
+   "Reparte el yogur en dos boles.",
+   "Añade las fresas laminadas y la granola.",
+   "Termina con miel."
+  ]
+ },
+ {
+  "id": "tortitas-platano",
+  "name": "Tortitas de plátano y avena",
+  "emoji": "🥞",
+  "hue": 48,
+  "meals": [
+   "breakfast"
+  ],
+  "time": 20,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "2 u plátano",
+   "2 u huevo",
+   "60 g avena",
+   "1 cda mantequilla"
+  ],
+  "steps": [
+   "Tritura el plátano, los huevos y la avena.",
+   "Calienta la mantequilla en una sartén.",
+   "Cocina cucharones de masa 2 minutos por lado."
+  ]
+ },
+ {
+  "id": "tostada-tomate",
+  "name": "Pan con tomate y jamón",
+  "emoji": "🍅",
+  "hue": 8,
+  "meals": [
+   "breakfast"
+  ],
+  "time": 8,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "2 u pan",
+   "2 u tomate",
+   "1 u ajo",
+   "2 cda aceite de oliva",
+   "60 g jamón serrano",
+   "1 pizca sal"
+  ],
+  "steps": [
+   "Tuesta el pan y frótalo con ajo.",
+   "Ralla el tomate y extiéndelo con aceite y sal.",
+   "Añade el jamón."
+  ]
+ },
+ {
+  "id": "smoothie-verde",
+  "name": "Smoothie verde de mango y espinacas",
+  "emoji": "🥤",
+  "hue": 130,
+  "meals": [
+   "breakfast"
+  ],
+  "time": 5,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "1 u mango",
+   "1 u plátano",
+   "60 g espinacas",
+   "300 ml leche",
+   "1 u lima"
+  ],
+  "steps": [
+   "Pela y trocea la fruta.",
+   "Bate todo con la leche y el zumo de lima.",
+   "Sirve frío."
+  ]
+ },
+ {
+  "id": "huevos-revueltos",
+  "name": "Huevos revueltos con champiñones",
+  "emoji": "🍳",
+  "hue": 40,
+  "meals": [
+   "breakfast"
+  ],
+  "time": 12,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "4 u huevo",
+   "150 g champiñón",
+   "1 cda mantequilla",
+   "1 pizca sal",
+   "1 pizca pimienta"
+  ],
+  "steps": [
+   "Saltea los champiñones laminados con la mantequilla.",
+   "Añade los huevos batidos.",
+   "Remueve a fuego bajo hasta que cuajen cremosos."
+  ]
+ },
+ {
+  "id": "chia-pudding",
+  "name": "Pudin de chía con mermelada",
+  "emoji": "🫐",
+  "hue": 265,
+  "meals": [
+   "breakfast"
+  ],
+  "time": 5,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "40 g semillas de chía",
+   "300 ml bebida de avena",
+   "2 cda mermelada",
+   "1 cda miel"
+  ],
+  "steps": [
+   "Mezcla la chía con la bebida de avena y la miel.",
+   "Refrigera al menos 4 horas.",
+   "Sirve con mermelada por encima."
+  ]
+ },
+ {
+  "id": "tortilla-francesa-queso",
+  "name": "Tortilla francesa de queso",
+  "emoji": "🧀",
+  "hue": 50,
+  "meals": [
+   "breakfast"
+  ],
+  "time": 8,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "4 u huevo",
+   "60 g queso rallado",
+   "1 cda mantequilla",
+   "1 pizca sal"
+  ],
+  "steps": [
+   "Bate los huevos con sal.",
+   "Cuaja en la mantequilla a fuego medio.",
+   "Añade el queso, dobla y sirve."
+  ]
+ },
+ {
+  "id": "crepes-dulces",
+  "name": "Crepes con chocolate y fresas",
+  "emoji": "🍫",
+  "hue": 15,
+  "meals": [
+   "breakfast"
+  ],
+  "time": 25,
+  "difficulty": "medio",
+  "servings": 3,
+  "ingredients": [
+   "120 g harina de trigo",
+   "300 ml leche",
+   "2 u huevo",
+   "50 g chocolate negro",
+   "150 g fresa",
+   "1 cda mantequilla"
+  ],
+  "steps": [
+   "Bate harina, leche y huevos hasta obtener una masa fluida.",
+   "Cocina finas láminas en sartén con mantequilla.",
+   "Rellena con chocolate fundido y fresas."
+  ]
+ },
+ {
+  "id": "tortilla-patata",
+  "name": "Tortilla de patatas",
+  "emoji": "🥔",
+  "hue": 42,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 40,
+  "difficulty": "medio",
+  "servings": 4,
+  "ingredients": [
+   "6 u huevo",
+   "500 g patata",
+   "1 u cebolla",
+   "100 ml aceite de oliva",
+   "1 pizca sal"
+  ],
+  "steps": [
+   "Pela y corta las patatas en láminas y pocha con la cebolla en aceite.",
+   "Escurre y mezcla con los huevos batidos y sal.",
+   "Cuaja por ambos lados en la sartén."
+  ]
+ },
+ {
+  "id": "lentejas-estofadas",
+  "name": "Lentejas estofadas con verduras",
+  "emoji": "🍲",
+  "hue": 25,
+  "meals": [
+   "lunch"
+  ],
+  "time": 45,
+  "difficulty": "facil",
+  "servings": 4,
+  "ingredients": [
+   "300 g lentejas",
+   "1 u zanahoria",
+   "1 u cebolla",
+   "2 u ajo",
+   "1 u pimiento rojo",
+   "1 cdta pimentón",
+   "1 u laurel",
+   "2 cda aceite de oliva",
+   "1 pizca sal"
+  ],
+  "steps": [
+   "Sofríe cebolla, ajo, zanahoria y pimiento en aceite.",
+   "Añade pimentón, lentejas, laurel y agua.",
+   "Cuece 30 minutos y rectifica de sal."
+  ]
+ },
+ {
+  "id": "garbanzos-espinacas",
+  "name": "Garbanzos con espinacas",
+  "emoji": "🌿",
+  "hue": 110,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 25,
+  "difficulty": "facil",
+  "servings": 3,
+  "ingredients": [
+   "400 g garbanzos",
+   "300 g espinacas",
+   "3 u ajo",
+   "1 cdta comino",
+   "1 cdta pimentón",
+   "2 cda aceite de oliva",
+   "1 pizca sal"
+  ],
+  "steps": [
+   "Dora el ajo en aceite y añade pimentón y comino.",
+   "Incorpora los garbanzos cocidos y un poco de agua.",
+   "Suma las espinacas y cocina 5 minutos."
+  ]
+ },
+ {
+  "id": "arroz-salteado",
+  "name": "Arroz salteado con huevo y guisantes",
+  "emoji": "🍚",
+  "hue": 60,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 25,
+  "difficulty": "facil",
+  "servings": 3,
+  "ingredients": [
+   "250 g arroz",
+   "100 g guisantes",
+   "2 u huevo",
+   "1 u zanahoria",
+   "2 cda salsa de soja",
+   "2 cda aceite de oliva"
+  ],
+  "steps": [
+   "Cuece el arroz y déjalo enfriar.",
+   "Saltea zanahoria y guisantes, añade el arroz.",
+   "Suma los huevos revueltos y la salsa de soja."
+  ]
+ },
+ {
+  "id": "pasta-tomate",
+  "name": "Espaguetis con tomate y albahaca",
+  "emoji": "🍝",
+  "hue": 8,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 20,
+  "difficulty": "facil",
+  "servings": 3,
+  "ingredients": [
+   "300 g espaguetis",
+   "400 g tomate triturado",
+   "2 u ajo",
+   "1 cda aceite de oliva",
+   "10 g albahaca",
+   "40 g queso parmesano",
+   "1 pizca sal"
+  ],
+  "steps": [
+   "Cuece la pasta al dente.",
+   "Dora el ajo y añade el tomate 10 minutos.",
+   "Mezcla con la pasta, albahaca y parmesano."
+  ]
+ },
+ {
+  "id": "macarrones-carne",
+  "name": "Macarrones con carne y tomate",
+  "emoji": "🍅",
+  "hue": 12,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 35,
+  "difficulty": "facil",
+  "servings": 4,
+  "ingredients": [
+   "300 g macarrones",
+   "300 g carne picada",
+   "1 u cebolla",
+   "400 g tomate triturado",
+   "60 g queso rallado",
+   "1 cda aceite de oliva",
+   "1 pizca sal"
+  ],
+  "steps": [
+   "Sofríe la cebolla y la carne.",
+   "Añade el tomate y cocina 15 minutos.",
+   "Mezcla con los macarrones y gratina con queso."
+  ]
+ },
+ {
+  "id": "pollo-limon",
+  "name": "Pollo al limón con patatas",
+  "emoji": "🍋",
+  "hue": 55,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 45,
+  "difficulty": "facil",
+  "servings": 3,
+  "ingredients": [
+   "3 u muslo de pollo",
+   "500 g patata",
+   "2 u limón",
+   "3 u ajo",
+   "1 cda orégano",
+   "3 cda aceite de oliva",
+   "1 pizca sal"
+  ],
+  "steps": [
+   "Coloca el pollo y las patatas en una bandeja.",
+   "Aliña con limón, ajo, orégano, aceite y sal.",
+   "Hornea a 200 grados 40 minutos."
+  ]
+ },
+ {
+  "id": "salmon-horno",
+  "name": "Salmón al horno con brócoli",
+  "emoji": "🐟",
+  "hue": 15,
+  "meals": [
+   "dinner"
+  ],
+  "time": 25,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "2 u salmón",
+   "300 g brócoli",
+   "1 u limón",
+   "1 cda aceite de oliva",
+   "1 pizca sal",
+   "1 pizca pimienta"
+  ],
+  "steps": [
+   "Coloca el salmón y el brócoli en una bandeja.",
+   "Aliña con aceite, limón, sal y pimienta.",
+   "Hornea a 200 grados 15 minutos."
+  ]
+ },
+ {
+  "id": "merluza-verduras",
+  "name": "Merluza con verduras salteadas",
+  "emoji": "🐠",
+  "hue": 190,
+  "meals": [
+   "dinner"
+  ],
+  "time": 25,
+  "difficulty": "medio",
+  "servings": 2,
+  "ingredients": [
+   "2 u merluza",
+   "1 u calabacín",
+   "1 u pimiento verde",
+   "1 u cebolleta",
+   "2 cda aceite de oliva",
+   "1 u limón",
+   "1 pizca sal"
+  ],
+  "steps": [
+   "Saltea las verduras en tiras.",
+   "Marca la merluza a la plancha 3 minutos por lado.",
+   "Sirve sobre las verduras con limón."
+  ]
+ },
+ {
+  "id": "ensalada-pollo-parmesano",
+  "name": "Ensalada de pollo y parmesano",
+  "emoji": "🥗",
+  "hue": 100,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 20,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "1 u pechuga de pollo",
+   "1 u lechuga",
+   "40 g queso parmesano",
+   "2 u pan",
+   "2 cda aceite de oliva",
+   "1 u limón",
+   "1 pizca sal"
+  ],
+  "steps": [
+   "Dora el pollo a la plancha y lamínalo.",
+   "Tuesta el pan en cubos.",
+   "Mezcla con lechuga, parmesano, aceite y limón."
+  ]
+ },
+ {
+  "id": "ensalada-mediterranea",
+  "name": "Ensalada mediterránea con feta",
+  "emoji": "🫒",
+  "hue": 85,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 15,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "3 u tomate",
+   "1 u pepino",
+   "100 g queso feta",
+   "50 g aceitunas",
+   "1 u cebolleta",
+   "2 cda aceite de oliva",
+   "1 cda orégano",
+   "1 pizca sal"
+  ],
+  "steps": [
+   "Trocea tomate, pepino y cebolleta.",
+   "Añade aceitunas y feta en dados.",
+   "Aliña con aceite, orégano y sal."
+  ]
+ },
+ {
+  "id": "crema-calabaza",
+  "name": "Crema de calabaza y zanahoria",
+  "emoji": "🎃",
+  "hue": 30,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 35,
+  "difficulty": "facil",
+  "servings": 4,
+  "ingredients": [
+   "600 g calabaza",
+   "2 u zanahoria",
+   "1 u cebolla",
+   "500 ml caldo de verduras",
+   "2 cda aceite de oliva",
+   "1 pizca sal"
+  ],
+  "steps": [
+   "Pocha la cebolla y añade las verduras troceadas.",
+   "Cubre con caldo y cuece 20 minutos.",
+   "Tritura hasta que quede sedosa."
+  ]
+ },
+ {
+  "id": "crema-puerros",
+  "name": "Crema de puerros y patata",
+  "emoji": "🥣",
+  "hue": 105,
+  "meals": [
+   "dinner"
+  ],
+  "time": 30,
+  "difficulty": "facil",
+  "servings": 4,
+  "ingredients": [
+   "3 u puerro",
+   "300 g patata",
+   "500 ml caldo de verduras",
+   "50 ml nata",
+   "1 cda mantequilla",
+   "1 pizca sal"
+  ],
+  "steps": [
+   "Sofríe el puerro en mantequilla.",
+   "Añade patata y caldo y cuece 20 minutos.",
+   "Tritura y termina con nata."
+  ]
+ },
+ {
+  "id": "gazpacho",
+  "name": "Gazpacho fresquito",
+  "emoji": "🥒",
+  "hue": 5,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 15,
+  "difficulty": "facil",
+  "servings": 4,
+  "ingredients": [
+   "1000 g tomate",
+   "1 u pepino",
+   "1 u pimiento verde",
+   "1 u ajo",
+   "4 cda aceite de oliva",
+   "2 cda vinagre",
+   "1 pizca sal"
+  ],
+  "steps": [
+   "Trocea las verduras.",
+   "Tritura con aceite, vinagre y sal.",
+   "Enfría antes de servir."
+  ]
+ },
+ {
+  "id": "pisto-huevo",
+  "name": "Pisto con huevo",
+  "emoji": "🍳",
+  "hue": 18,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 35,
+  "difficulty": "facil",
+  "servings": 3,
+  "ingredients": [
+   "2 u calabacín",
+   "2 u pimiento rojo",
+   "1 u cebolla",
+   "300 g tomate triturado",
+   "3 u huevo",
+   "3 cda aceite de oliva",
+   "1 pizca sal"
+  ],
+  "steps": [
+   "Pocha la cebolla, el pimiento y el calabacín.",
+   "Añade el tomate y cuece 15 minutos.",
+   "Cuaja los huevos encima."
+  ]
+ },
+ {
+  "id": "berenjenas-gratinadas",
+  "name": "Berenjenas gratinadas",
+  "emoji": "🍆",
+  "hue": 280,
+  "meals": [
+   "dinner"
+  ],
+  "time": 40,
+  "difficulty": "medio",
+  "servings": 2,
+  "ingredients": [
+   "2 u berenjena",
+   "200 g tomate frito",
+   "100 g mozzarella",
+   "1 cda orégano",
+   "1 cda aceite de oliva"
+  ],
+  "steps": [
+   "Asa las berenjenas abiertas 20 minutos.",
+   "Cubre con tomate y mozzarella.",
+   "Gratina 10 minutos con orégano."
+  ]
+ },
+ {
+  "id": "hamburguesa-casera",
+  "name": "Hamburguesa casera con patatas",
+  "emoji": "🍔",
+  "hue": 28,
+  "meals": [
+   "dinner"
+  ],
+  "time": 30,
+  "difficulty": "medio",
+  "servings": 2,
+  "ingredients": [
+   "300 g carne picada",
+   "2 u pan",
+   "1 u tomate",
+   "1 u lechuga",
+   "300 g patata",
+   "2 cda aceite de oliva",
+   "1 pizca sal"
+  ],
+  "steps": [
+   "Forma dos hamburguesas y sazona.",
+   "Cocínalas a la plancha con las patatas en gajos al horno.",
+   "Monta con pan, lechuga y tomate."
+  ]
+ },
+ {
+  "id": "pizza-margarita",
+  "name": "Pizza margarita casera",
+  "emoji": "🍕",
+  "hue": 5,
+  "meals": [
+   "dinner"
+  ],
+  "time": 30,
+  "difficulty": "medio",
+  "servings": 2,
+  "ingredients": [
+   "1 u masa de pizza",
+   "150 g tomate frito",
+   "150 g mozzarella",
+   "10 g albahaca",
+   "1 cda aceite de oliva"
+  ],
+  "steps": [
+   "Extiende la masa y cúbrela con tomate.",
+   "Añade la mozzarella.",
+   "Hornea a 220 grados 12 minutos y termina con albahaca."
+  ]
+ },
+ {
+  "id": "wrap-pollo",
+  "name": "Wraps de pollo y aguacate",
+  "emoji": "🌯",
+  "hue": 70,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 20,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "2 u tortilla de trigo",
+   "1 u pechuga de pollo",
+   "1 u aguacate",
+   "1 u tomate",
+   "1 u lechuga",
+   "1 cda mayonesa"
+  ],
+  "steps": [
+   "Dora el pollo en tiras.",
+   "Unta las tortillas con mayonesa.",
+   "Rellena con pollo, aguacate, tomate y lechuga."
+  ]
+ },
+ {
+  "id": "quesadillas",
+  "name": "Quesadillas de queso y maíz",
+  "emoji": "🧀",
+  "hue": 45,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 15,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "4 u tortilla de trigo",
+   "150 g queso rallado",
+   "100 g maíz dulce",
+   "1 u pimiento rojo"
+  ],
+  "steps": [
+   "Rellena la mitad de cada tortilla.",
+   "Dobla y dora en sartén sin aceite.",
+   "Corta en triángulos."
+  ]
+ },
+ {
+  "id": "curry-garbanzos",
+  "name": "Curry de garbanzos y coco",
+  "emoji": "🍛",
+  "hue": 38,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 30,
+  "difficulty": "facil",
+  "servings": 3,
+  "ingredients": [
+   "400 g garbanzos",
+   "400 ml leche de coco",
+   "1 u cebolla",
+   "2 u ajo",
+   "1 cda curry en polvo",
+   "200 g tomate triturado",
+   "150 g espinacas",
+   "1 cda aceite de oliva"
+  ],
+  "steps": [
+   "Sofríe cebolla y ajo con el curry.",
+   "Añade tomate, leche de coco y garbanzos.",
+   "Cuece 15 minutos y suma las espinacas."
+  ]
+ },
+ {
+  "id": "tofu-salteado",
+  "name": "Tofu salteado con verduras",
+  "emoji": "🥦",
+  "hue": 120,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 25,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "250 g tofu",
+   "200 g brócoli",
+   "1 u zanahoria",
+   "2 cda salsa de soja",
+   "1 cda jengibre",
+   "1 cda aceite de oliva"
+  ],
+  "steps": [
+   "Dora el tofu en cubos.",
+   "Saltea brócoli, zanahoria y jengibre.",
+   "Mezcla con la salsa de soja."
+  ]
+ },
+ {
+  "id": "bowl-quinoa",
+  "name": "Bowl de quinoa, aguacate y garbanzos",
+  "emoji": "🥣",
+  "hue": 92,
+  "meals": [
+   "lunch"
+  ],
+  "time": 25,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "150 g quinoa",
+   "1 u aguacate",
+   "200 g garbanzos",
+   "1 u tomate",
+   "1 u limón",
+   "2 cda aceite de oliva",
+   "1 pizca sal"
+  ],
+  "steps": [
+   "Cuece la quinoa 12 minutos.",
+   "Añade garbanzos, aguacate y tomate en dados.",
+   "Aliña con limón y aceite."
+  ]
+ },
+ {
+  "id": "cuscus-verduras",
+  "name": "Cuscús con verduras asadas",
+  "emoji": "🥕",
+  "hue": 35,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 25,
+  "difficulty": "facil",
+  "servings": 3,
+  "ingredients": [
+   "200 g cuscús",
+   "1 u calabacín",
+   "1 u pimiento rojo",
+   "1 u cebolla",
+   "250 ml caldo de verduras",
+   "2 cda aceite de oliva",
+   "1 cdta comino"
+  ],
+  "steps": [
+   "Asa las verduras en trozos con aceite y comino.",
+   "Hidrata el cuscús con el caldo caliente 5 minutos.",
+   "Mezcla todo."
+  ]
+ },
+ {
+  "id": "sopa-fideos",
+  "name": "Sopa de fideos y pollo",
+  "emoji": "🍜",
+  "hue": 50,
+  "meals": [
+   "dinner"
+  ],
+  "time": 30,
+  "difficulty": "facil",
+  "servings": 3,
+  "ingredients": [
+   "1 u pechuga de pollo",
+   "100 g fideos",
+   "1 u zanahoria",
+   "1 u puerro",
+   "1000 ml caldo de pollo",
+   "1 pizca sal"
+  ],
+  "steps": [
+   "Cuece el pollo troceado con las verduras en el caldo.",
+   "Añade los fideos 5 minutos.",
+   "Rectifica de sal."
+  ]
+ },
+ {
+  "id": "sopa-ajo",
+  "name": "Sopa castellana de ajo",
+  "emoji": "🧄",
+  "hue": 30,
+  "meals": [
+   "dinner"
+  ],
+  "time": 25,
+  "difficulty": "medio",
+  "servings": 2,
+  "ingredients": [
+   "4 u ajo",
+   "2 u pan",
+   "1 cdta pimentón",
+   "500 ml caldo de pollo",
+   "2 u huevo",
+   "2 cda aceite de oliva"
+  ],
+  "steps": [
+   "Dora el ajo y el pan en aceite.",
+   "Añade pimentón y caldo, cuece 10 minutos.",
+   "Escalfa los huevos en la sopa."
+  ]
+ },
+ {
+  "id": "alubias-chorizo",
+  "name": "Alubias blancas con chorizo",
+  "emoji": "🫘",
+  "hue": 15,
+  "meals": [
+   "lunch"
+  ],
+  "time": 40,
+  "difficulty": "medio",
+  "servings": 3,
+  "ingredients": [
+   "400 g alubias blancas",
+   "100 g chorizo",
+   "1 u cebolla",
+   "1 u zanahoria",
+   "1 cdta pimentón",
+   "1 u laurel"
+  ],
+  "steps": [
+   "Sofríe cebolla, zanahoria y chorizo.",
+   "Añade pimentón, alubias, laurel y agua.",
+   "Cuece 25 minutos a fuego suave."
+  ]
+ },
+ {
+  "id": "arroz-pollo",
+  "name": "Arroz con pollo y pimientos",
+  "emoji": "🍗",
+  "hue": 40,
+  "meals": [
+   "lunch"
+  ],
+  "time": 45,
+  "difficulty": "medio",
+  "servings": 4,
+  "ingredients": [
+   "300 g arroz",
+   "2 u muslo de pollo",
+   "1 u pimiento rojo",
+   "1 u cebolla",
+   "600 ml caldo de pollo",
+   "1 cdta pimentón",
+   "3 cda aceite de oliva",
+   "1 pizca sal"
+  ],
+  "steps": [
+   "Dora el pollo y retíralo.",
+   "Sofríe las verduras, añade arroz y pimentón.",
+   "Vuelve el pollo, cubre con caldo y cuece 18 minutos."
+  ]
+ },
+ {
+  "id": "arroz-verduras",
+  "name": "Arroz de verduras",
+  "emoji": "🥘",
+  "hue": 50,
+  "meals": [
+   "lunch"
+  ],
+  "time": 40,
+  "difficulty": "medio",
+  "servings": 4,
+  "ingredients": [
+   "300 g arroz",
+   "1 u pimiento rojo",
+   "1 u calabacín",
+   "100 g judía verde",
+   "200 g tomate triturado",
+   "800 ml caldo de verduras",
+   "1 cdta pimentón",
+   "3 cda aceite de oliva"
+  ],
+  "steps": [
+   "Sofríe las verduras y el tomate.",
+   "Añade arroz, pimentón y caldo.",
+   "Cuece 18 minutos sin remover y deja reposar."
+  ]
+ },
+ {
+  "id": "risotto-champinon",
+  "name": "Risotto de champiñones",
+  "emoji": "🍄",
+  "hue": 30,
+  "meals": [
+   "dinner"
+  ],
+  "time": 40,
+  "difficulty": "dificil",
+  "servings": 3,
+  "ingredients": [
+   "250 g arroz",
+   "300 g champiñón",
+   "1 u cebolla",
+   "800 ml caldo de verduras",
+   "40 g queso parmesano",
+   "1 cda mantequilla"
+  ],
+  "steps": [
+   "Sofríe la cebolla y los champiñones.",
+   "Nacara el arroz y añade el caldo poco a poco.",
+   "Termina con mantequilla y parmesano."
+  ]
+ },
+ {
+  "id": "pasta-pollo-espinacas",
+  "name": "Macarrones con pollo y espinacas",
+  "emoji": "🍝",
+  "hue": 125,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 25,
+  "difficulty": "facil",
+  "servings": 3,
+  "ingredients": [
+   "300 g macarrones",
+   "1 u pechuga de pollo",
+   "150 g espinacas",
+   "100 ml nata",
+   "2 u ajo",
+   "1 cda aceite de oliva"
+  ],
+  "steps": [
+   "Cuece la pasta.",
+   "Dora el pollo con ajo y añade las espinacas.",
+   "Suma la nata y mezcla con la pasta."
+  ]
+ },
+ {
+  "id": "carbonara",
+  "name": "Espaguetis a la carbonara",
+  "emoji": "🥓",
+  "hue": 45,
+  "meals": [
+   "dinner"
+  ],
+  "time": 25,
+  "difficulty": "medio",
+  "servings": 3,
+  "ingredients": [
+   "300 g espaguetis",
+   "150 g bacon",
+   "3 u huevo",
+   "60 g queso parmesano",
+   "1 pizca pimienta"
+  ],
+  "steps": [
+   "Cuece la pasta.",
+   "Dora el bacon.",
+   "Fuera del fuego mezcla pasta, huevos batidos con parmesano y bacon."
+  ]
+ },
+ {
+  "id": "lasana-verduras",
+  "name": "Lasaña de verduras",
+  "emoji": "🧅",
+  "hue": 22,
+  "meals": [
+   "dinner"
+  ],
+  "time": 60,
+  "difficulty": "dificil",
+  "servings": 4,
+  "ingredients": [
+   "250 g macarrones",
+   "2 u calabacín",
+   "1 u berenjena",
+   "400 g tomate frito",
+   "200 g mozzarella",
+   "1 cda orégano"
+  ],
+  "steps": [
+   "Saltea las verduras laminadas.",
+   "Alterna capas de pasta cocida, verduras, tomate y mozzarella.",
+   "Hornea 25 minutos a 190 grados."
+  ]
+ },
+ {
+  "id": "salteado-ternera",
+  "name": "Salteado de ternera con pimientos",
+  "emoji": "🥩",
+  "hue": 5,
+  "meals": [
+   "dinner"
+  ],
+  "time": 25,
+  "difficulty": "medio",
+  "servings": 2,
+  "ingredients": [
+   "250 g ternera",
+   "1 u pimiento rojo",
+   "1 u pimiento verde",
+   "1 u cebolla",
+   "2 cda salsa de soja",
+   "1 cda aceite de oliva"
+  ],
+  "steps": [
+   "Corta la ternera en tiras y dórala a fuego fuerte.",
+   "Añade las verduras en juliana.",
+   "Termina con salsa de soja."
+  ]
+ },
+ {
+  "id": "lomo-cerdo-manzana",
+  "name": "Lomo de cerdo con manzana",
+  "emoji": "🍏",
+  "hue": 85,
+  "meals": [
+   "dinner"
+  ],
+  "time": 35,
+  "difficulty": "medio",
+  "servings": 3,
+  "ingredients": [
+   "400 g lomo de cerdo",
+   "2 u manzana",
+   "1 u cebolla",
+   "100 ml nata",
+   "1 cda aceite de oliva",
+   "1 pizca sal",
+   "1 pizca pimienta"
+  ],
+  "steps": [
+   "Sella el lomo en rodajas.",
+   "Pocha cebolla y manzana en la misma sartén.",
+   "Añade la nata y el lomo, cocina 8 minutos."
+  ]
+ },
+ {
+  "id": "albondigas-tomate",
+  "name": "Albóndigas en salsa de tomate",
+  "emoji": "🧆",
+  "hue": 10,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 45,
+  "difficulty": "medio",
+  "servings": 4,
+  "ingredients": [
+   "400 g carne picada",
+   "1 u huevo",
+   "40 g pan rallado",
+   "1 u cebolla",
+   "400 g tomate triturado",
+   "2 u ajo",
+   "2 cda aceite de oliva"
+  ],
+  "steps": [
+   "Mezcla carne, huevo, pan rallado y ajo picado y forma bolas.",
+   "Dóralas en aceite.",
+   "Cuécelas 15 minutos en salsa de tomate con cebolla."
+  ]
+ },
+ {
+  "id": "pollo-curry",
+  "name": "Pollo al curry con arroz",
+  "emoji": "🍛",
+  "hue": 44,
+  "meals": [
+   "dinner"
+  ],
+  "time": 35,
+  "difficulty": "facil",
+  "servings": 3,
+  "ingredients": [
+   "2 u pechuga de pollo",
+   "200 g arroz",
+   "1 cda curry en polvo",
+   "200 ml leche de coco",
+   "1 u cebolla",
+   "1 cda aceite de oliva"
+  ],
+  "steps": [
+   "Cuece el arroz.",
+   "Dora el pollo con la cebolla y el curry.",
+   "Añade la leche de coco y cocina 10 minutos."
+  ]
+ },
+ {
+  "id": "gambas-ajillo",
+  "name": "Gambas al ajillo",
+  "emoji": "🦐",
+  "hue": 8,
+  "meals": [
+   "dinner"
+  ],
+  "time": 15,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "300 g gambas",
+   "4 u ajo",
+   "4 cda aceite de oliva",
+   "1 cdta pimentón",
+   "1 u pan"
+  ],
+  "steps": [
+   "Dora los ajos laminados en aceite.",
+   "Añade las gambas y el pimentón 3 minutos.",
+   "Sirve con pan para mojar."
+  ]
+ },
+ {
+  "id": "bacalao-tomate",
+  "name": "Bacalao con tomate",
+  "emoji": "🐟",
+  "hue": 14,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 30,
+  "difficulty": "medio",
+  "servings": 2,
+  "ingredients": [
+   "2 u bacalao",
+   "300 g tomate triturado",
+   "1 u cebolla",
+   "1 u pimiento rojo",
+   "2 cda aceite de oliva"
+  ],
+  "steps": [
+   "Sofríe cebolla y pimiento.",
+   "Añade el tomate y cuece 10 minutos.",
+   "Cocina el bacalao en la salsa 8 minutos."
+  ]
+ },
+ {
+  "id": "mejillones-limon",
+  "name": "Mejillones al vapor con limón",
+  "emoji": "🦪",
+  "hue": 200,
+  "meals": [
+   "dinner"
+  ],
+  "time": 15,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "500 g mejillones",
+   "1 u limón",
+   "2 u ajo",
+   "10 g perejil",
+   "1 cda aceite de oliva"
+  ],
+  "steps": [
+   "Abre los mejillones al vapor con ajo.",
+   "Añade zumo de limón y aceite.",
+   "Espolvorea perejil."
+  ]
+ },
+ {
+  "id": "ensalada-atun",
+  "name": "Ensalada de atún y pimientos",
+  "emoji": "🐟",
+  "hue": 190,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 10,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "2 u atún en lata",
+   "100 g pimientos del piquillo",
+   "2 u tomate",
+   "1 u cebolleta",
+   "50 g aceitunas",
+   "1 cda vinagre",
+   "2 cda aceite de oliva"
+  ],
+  "steps": [
+   "Trocea tomate, cebolleta y pimientos.",
+   "Añade el atún escurrido y las aceitunas.",
+   "Aliña con aceite y vinagre."
+  ]
+ },
+ {
+  "id": "hummus-crudites",
+  "name": "Hummus casero con crudités",
+  "emoji": "🥕",
+  "hue": 38,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 15,
+  "difficulty": "facil",
+  "servings": 3,
+  "ingredients": [
+   "400 g garbanzos",
+   "2 cda tahini",
+   "1 u limón",
+   "1 u ajo",
+   "2 cda aceite de oliva",
+   "2 u zanahoria",
+   "1 u pepino"
+  ],
+  "steps": [
+   "Tritura garbanzos, tahini, limón, ajo y aceite.",
+   "Corta zanahoria y pepino en bastones.",
+   "Sirve para mojar."
+  ]
+ },
+ {
+  "id": "falafel-horno",
+  "name": "Falafel al horno con yogur",
+  "emoji": "🧆",
+  "hue": 70,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 40,
+  "difficulty": "medio",
+  "servings": 3,
+  "ingredients": [
+   "400 g garbanzos",
+   "1 u cebolla",
+   "2 u ajo",
+   "10 g perejil",
+   "1 cdta comino",
+   "2 cda harina de trigo",
+   "150 g yogur natural"
+  ],
+  "steps": [
+   "Tritura todo salvo el yogur y forma bolas.",
+   "Hornea 25 minutos a 200 grados.",
+   "Sirve con yogur."
+  ]
+ },
+ {
+  "id": "tortilla-espinacas",
+  "name": "Tortilla de espinacas y queso fresco",
+  "emoji": "🥬",
+  "hue": 120,
+  "meals": [
+   "dinner"
+  ],
+  "time": 20,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "4 u huevo",
+   "150 g espinacas",
+   "100 g queso fresco",
+   "1 cda aceite de oliva",
+   "1 pizca sal"
+  ],
+  "steps": [
+   "Saltea las espinacas.",
+   "Mezcla con los huevos y el queso.",
+   "Cuaja en la sartén por ambos lados."
+  ]
+ },
+ {
+  "id": "huevos-rotos",
+  "name": "Huevos rotos con jamón",
+  "emoji": "🍳",
+  "hue": 45,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 30,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "4 u huevo",
+   "400 g patata",
+   "80 g jamón serrano",
+   "150 ml aceite de oliva",
+   "1 pizca sal"
+  ],
+  "steps": [
+   "Fríe las patatas en rodajas.",
+   "Fríe los huevos aparte.",
+   "Monta los huevos sobre las patatas con jamón."
+  ]
+ },
+ {
+  "id": "boniato-relleno",
+  "name": "Boniato asado relleno",
+  "emoji": "🍠",
+  "hue": 25,
+  "meals": [
+   "dinner"
+  ],
+  "time": 50,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "2 u boniato",
+   "150 g yogur natural",
+   "100 g maíz dulce",
+   "1 u cebolleta",
+   "1 cda aceite de oliva",
+   "1 pizca sal"
+  ],
+  "steps": [
+   "Asa los boniatos 40 minutos a 200 grados.",
+   "Ábrelos y rellena con maíz y cebolleta.",
+   "Corona con yogur."
+  ]
+ },
+ {
+  "id": "coliflor-asada",
+  "name": "Coliflor asada con tahini",
+  "emoji": "🥦",
+  "hue": 60,
+  "meals": [
+   "dinner"
+  ],
+  "time": 35,
+  "difficulty": "facil",
+  "servings": 3,
+  "ingredients": [
+   "1 u coliflor",
+   "2 cda tahini",
+   "1 u limón",
+   "1 cdta comino",
+   "2 cda aceite de oliva",
+   "1 pizca sal"
+  ],
+  "steps": [
+   "Corta la coliflor y aliña con aceite, comino y sal.",
+   "Ásala 25 minutos a 210 grados.",
+   "Riega con salsa de tahini y limón."
+  ]
+ },
+ {
+  "id": "ensalada-lentejas",
+  "name": "Ensalada tibia de lentejas",
+  "emoji": "🥗",
+  "hue": 95,
+  "meals": [
+   "lunch"
+  ],
+  "time": 20,
+  "difficulty": "facil",
+  "servings": 3,
+  "ingredients": [
+   "300 g lentejas",
+   "1 u zanahoria",
+   "1 u pimiento verde",
+   "1 u cebolleta",
+   "1 u tomate",
+   "2 cda vinagre",
+   "3 cda aceite de oliva"
+  ],
+  "steps": [
+   "Usa lentejas ya cocidas.",
+   "Pica las verduras en dados.",
+   "Mezcla y aliña con vinagre y aceite."
+  ]
+ },
+ {
+  "id": "ensalada-rucula-pera",
+  "name": "Ensalada de rúcula, pera y queso de cabra",
+  "emoji": "🍐",
+  "hue": 90,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 10,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "80 g rúcula",
+   "1 u pera",
+   "100 g queso de cabra",
+   "30 g nueces",
+   "1 cda miel",
+   "2 cda aceite de oliva"
+  ],
+  "steps": [
+   "Coloca la rúcula en el plato.",
+   "Añade pera laminada, queso y nueces.",
+   "Aliña con miel y aceite."
+  ]
+ },
+ {
+  "id": "brocheta-pollo",
+  "name": "Brochetas de pollo y verduras",
+  "emoji": "🍢",
+  "hue": 22,
+  "meals": [
+   "dinner"
+  ],
+  "time": 30,
+  "difficulty": "medio",
+  "servings": 2,
+  "ingredients": [
+   "2 u pechuga de pollo",
+   "1 u pimiento rojo",
+   "1 u calabacín",
+   "1 u cebolla",
+   "1 cdta pimentón",
+   "2 cda aceite de oliva"
+  ],
+  "steps": [
+   "Corta pollo y verduras en cubos.",
+   "Marina con aceite y pimentón.",
+   "Ensarta y cocina a la plancha 12 minutos."
+  ]
+ },
+ {
+  "id": "pavo-plancha",
+  "name": "Pavo a la plancha con ensalada",
+  "emoji": "🦃",
+  "hue": 100,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 15,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "2 u pechuga de pavo",
+   "1 u lechuga",
+   "1 u tomate",
+   "1 u pepino",
+   "1 u limón",
+   "1 cda aceite de oliva"
+  ],
+  "steps": [
+   "Cocina el pavo a la plancha.",
+   "Prepara la ensalada.",
+   "Aliña con limón y aceite."
+  ]
+ },
+ {
+  "id": "salchichas-pure",
+  "name": "Salchichas con puré de patata",
+  "emoji": "🌭",
+  "hue": 30,
+  "meals": [
+   "dinner"
+  ],
+  "time": 30,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "4 u salchichas",
+   "500 g patata",
+   "100 ml leche",
+   "1 cda mantequilla",
+   "1 pizca nuez moscada"
+  ],
+  "steps": [
+   "Cuece las patatas y haz un puré con leche y mantequilla.",
+   "Dora las salchichas.",
+   "Sirve juntas con nuez moscada."
+  ]
+ },
+ {
+  "id": "tacos-lentejas",
+  "name": "Tacos de lentejas y aguacate",
+  "emoji": "🌮",
+  "hue": 75,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 25,
+  "difficulty": "facil",
+  "servings": 3,
+  "ingredients": [
+   "6 u tortilla de trigo",
+   "200 g lentejas",
+   "1 u aguacate",
+   "1 u tomate",
+   "1 u cebolla",
+   "1 u lima",
+   "1 cdta comino"
+  ],
+  "steps": [
+   "Saltea la cebolla con lentejas y comino.",
+   "Calienta las tortillas.",
+   "Rellena con lentejas, aguacate, tomate y lima."
+  ]
+ },
+ {
+  "id": "pita-hummus",
+  "name": "Pita de verduras y hummus",
+  "emoji": "🥙",
+  "hue": 50,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 15,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "2 u pan de pita",
+   "100 g garbanzos",
+   "1 u pepino",
+   "1 u tomate",
+   "1 cda tahini",
+   "1 u limón"
+  ],
+  "steps": [
+   "Tritura garbanzos con tahini y limón.",
+   "Abre las pitas y unta.",
+   "Rellena con pepino y tomate."
+  ]
+ },
+ {
+  "id": "crema-champinones",
+  "name": "Crema de champiñones",
+  "emoji": "🍄",
+  "hue": 30,
+  "meals": [
+   "dinner"
+  ],
+  "time": 25,
+  "difficulty": "facil",
+  "servings": 3,
+  "ingredients": [
+   "400 g champiñón",
+   "1 u cebolla",
+   "500 ml caldo de verduras",
+   "100 ml nata",
+   "1 cda mantequilla",
+   "1 pizca sal"
+  ],
+  "steps": [
+   "Sofríe cebolla y champiñones en mantequilla.",
+   "Añade el caldo y cuece 10 minutos.",
+   "Tritura con la nata."
+  ]
+ },
+ {
+  "id": "torrijas",
+  "name": "Torrijas caseras",
+  "emoji": "🍞",
+  "hue": 30,
+  "meals": [
+   "breakfast"
+  ],
+  "time": 25,
+  "difficulty": "medio",
+  "servings": 4,
+  "ingredients": [
+   "4 u pan",
+   "300 ml leche",
+   "2 u huevo",
+   "2 cda azúcar",
+   "1 cdta canela",
+   "3 cda aceite de oliva"
+  ],
+  "steps": [
+   "Empapa el pan en la leche.",
+   "Pásalo por huevo batido y fríelo.",
+   "Reboza en azúcar y canela."
+  ]
+ },
+ {
+  "id": "bizcocho-yogur",
+  "name": "Bizcocho de yogur",
+  "emoji": "🍰",
+  "hue": 50,
+  "meals": [
+   "breakfast"
+  ],
+  "time": 50,
+  "difficulty": "facil",
+  "servings": 8,
+  "ingredients": [
+   "125 g yogur natural",
+   "250 g harina de trigo",
+   "150 g azúcar",
+   "3 u huevo",
+   "100 ml aceite de oliva",
+   "1 cda levadura química"
+  ],
+  "steps": [
+   "Mezcla el yogur con azúcar, huevos y aceite.",
+   "Incorpora la harina con la levadura.",
+   "Hornea 35 minutos a 180 grados."
+  ]
+ },
+ {
+  "id": "gachas-cacao",
+  "name": "Gachas de avena y cacao",
+  "emoji": "🍫",
+  "hue": 22,
+  "meals": [
+   "breakfast"
+  ],
+  "time": 10,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "80 g avena",
+   "400 ml leche",
+   "2 cda cacao en polvo",
+   "1 u plátano",
+   "1 cda miel"
+  ],
+  "steps": [
+   "Cuece la avena con la leche.",
+   "Añade el cacao.",
+   "Sirve con plátano en rodajas y miel."
+  ]
+ },
+ {
+  "id": "tostada-hummus",
+  "name": "Tostada de hummus y tomate cherry",
+  "emoji": "🥯",
+  "hue": 30,
+  "meals": [
+   "breakfast"
+  ],
+  "time": 8,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "2 u pan",
+   "100 g garbanzos",
+   "1 cda tahini",
+   "6 u tomate cherry",
+   "1 cda aceite de oliva"
+  ],
+  "steps": [
+   "Tritura garbanzos con tahini y aceite.",
+   "Unta el pan tostado.",
+   "Corona con tomates cherry."
+  ]
+ },
+ {
+  "id": "bowl-fruta",
+  "name": "Bowl de frutas y frutos secos",
+  "emoji": "🍇",
+  "hue": 320,
+  "meals": [
+   "breakfast"
+  ],
+  "time": 8,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "1 u kiwi",
+   "1 u plátano",
+   "100 g arándano",
+   "30 g almendras",
+   "200 g yogur natural",
+   "1 cda miel"
+  ],
+  "steps": [
+   "Corta la fruta.",
+   "Reparte el yogur en boles.",
+   "Añade fruta, almendras y miel."
+  ]
+ },
+ {
+  "id": "ensalada-remolacha",
+  "name": "Ensalada de remolacha y queso fresco",
+  "emoji": "🟣",
+  "hue": 325,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 15,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "2 u remolacha",
+   "100 g queso fresco",
+   "30 g nueces",
+   "1 cda vinagre",
+   "2 cda aceite de oliva",
+   "1 pizca sal"
+  ],
+  "steps": [
+   "Corta la remolacha cocida en dados.",
+   "Añade el queso fresco y las nueces.",
+   "Aliña con vinagre y aceite."
+  ]
+ },
+ {
+  "id": "judias-verdes-patata",
+  "name": "Judías verdes con patata y huevo",
+  "emoji": "🫛",
+  "hue": 112,
+  "meals": [
+   "lunch"
+  ],
+  "time": 30,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "300 g judía verde",
+   "300 g patata",
+   "2 u huevo",
+   "2 u ajo",
+   "2 cda aceite de oliva",
+   "1 pizca sal"
+  ],
+  "steps": [
+   "Cuece judías y patata en trozos 15 minutos.",
+   "Dora el ajo laminado y añádelo.",
+   "Sirve con huevo cocido."
+  ]
+ },
+ {
+  "id": "empanadillas-atun",
+  "name": "Empanadillas de atún al horno",
+  "emoji": "🥟",
+  "hue": 20,
+  "meals": [
+   "dinner"
+  ],
+  "time": 35,
+  "difficulty": "medio",
+  "servings": 3,
+  "ingredients": [
+   "1 u masa de pizza",
+   "2 u atún en lata",
+   "150 g tomate frito",
+   "1 u huevo",
+   "1 u cebolla"
+  ],
+  "steps": [
+   "Mezcla el atún con tomate y cebolla pochada.",
+   "Rellena círculos de masa y séllalos.",
+   "Pinta con huevo y hornea 20 minutos."
+  ]
+ },
+ {
+  "id": "chili-vegano",
+  "name": "Chili vegano de alubias",
+  "emoji": "🌶️",
+  "hue": 6,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 40,
+  "difficulty": "facil",
+  "servings": 4,
+  "ingredients": [
+   "400 g alubias blancas",
+   "200 g maíz dulce",
+   "400 g tomate triturado",
+   "1 u pimiento rojo",
+   "1 u cebolla",
+   "1 cdta comino",
+   "1 cdta pimentón",
+   "1 cda aceite de oliva"
+  ],
+  "steps": [
+   "Sofríe cebolla y pimiento con las especias.",
+   "Añade tomate, alubias y maíz.",
+   "Cuece 25 minutos."
+  ]
+ },
+ {
+  "id": "patatas-bravas",
+  "name": "Patatas bravas al horno",
+  "emoji": "🥔",
+  "hue": 10,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 45,
+  "difficulty": "facil",
+  "servings": 3,
+  "ingredients": [
+   "600 g patata",
+   "200 g tomate frito",
+   "1 cdta pimentón",
+   "2 cda aceite de oliva",
+   "1 pizca sal"
+  ],
+  "steps": [
+   "Asa las patatas en cubos con aceite y sal.",
+   "Calienta el tomate frito con pimentón.",
+   "Sirve la salsa sobre las patatas."
+  ]
+ },
+ {
+  "id": "poke-salmon",
+  "name": "Poke bowl de salmón y aguacate",
+  "emoji": "🍣",
+  "hue": 350,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "time": 25,
+  "difficulty": "medio",
+  "servings": 2,
+  "ingredients": [
+   "150 g arroz",
+   "200 g salmón",
+   "1 u aguacate",
+   "1 u pepino",
+   "2 cda salsa de soja",
+   "1 u lima"
+  ],
+  "steps": [
+   "Cuece el arroz.",
+   "Corta el salmón fresco en dados y aliña con soja y lima.",
+   "Monta el bowl con aguacate y pepino."
+  ]
+ },
+ {
+  "id": "tostada-sardinas",
+  "name": "Tostada de sardinas y tomate",
+  "emoji": "🐟",
+  "hue": 210,
+  "meals": [
+   "dinner"
+  ],
+  "time": 10,
+  "difficulty": "facil",
+  "servings": 2,
+  "ingredients": [
+   "2 u pan",
+   "2 u sardinas en lata",
+   "1 u tomate",
+   "1 u cebolleta",
+   "1 cda aceite de oliva"
+  ],
+  "steps": [
+   "Tuesta el pan.",
+   "Coloca rodajas de tomate y sardinas.",
+   "Termina con cebolleta y aceite."
+  ]
+ }
+]
