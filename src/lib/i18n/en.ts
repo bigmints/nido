@@ -25,6 +25,7 @@ export const en: Record<keyof typeof es, string> = {
   "home.weather": "Today's weather",
   "home.outfit": "Today's outfit",
   "home.outfit.suggested": "Here is what I would wear for today's weather:",
+  "home.outfit.now": "Right now in {city}: {temp}, {kind}",
   "home.outfit.empty": "Add clothes to your wardrobe and Nido will suggest what to wear every day.",
   "home.meals": "Today's meals",
   "home.meals.free": "Not planned",
@@ -108,8 +109,14 @@ export const en: Record<keyof typeof es, string> = {
   "planner.added": "Added to the planner",
 
   "shopping.title": "Shopping list",
-  "shopping.people": "People",
-  "shopping.peopleN": "{n} people",
+  "people.less": "One person less",
+  "people.more": "One person more",
+  "people.forDay": "People eating this day",
+  "people.today": "Cooking today for",
+  "people.hint": "Each day's recipes and shopping scale to this number.",
+
+  "shopping.people": "Default people",
+  "shopping.peopleN": "{n} by default",
   "shopping.subtract": "Subtract my fridge",
   "shopping.progress": "{done} of {total}",
   "shopping.copy": "Copy list",
@@ -264,8 +271,8 @@ export const en: Record<keyof typeof es, string> = {
   "settings.cityNone": "No city yet.",
   "settings.cityPrivacy":
     "Only your city's coordinates are sent to Open-Meteo to fetch the weather. Nothing else.",
-  "settings.people": "People at home",
-  "settings.peopleHint": "Recipes and the shopping list scale to this number.",
+  "settings.people": "People at home (default)",
+  "settings.peopleHint": "Used unless you set a different number for a day in the planner.",
   "settings.repeat": "Avoid repeating outfits",
   "settings.repeatHint": "Minimum days between wearing the same outfit twice.",
 

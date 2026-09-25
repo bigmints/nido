@@ -163,7 +163,20 @@ export function AppProvider({ children }: { children: ReactNode }) {
     }
   }, []);
   useEffect(() => {
-    if (ready) void loadWeather(city);
+    if (!ready) return;
+    void loadWeather(city);
+    // Weather (and with it the outfit suggestion) is refreshed periodically so
+    // it reflects the current moment, not just the moment the app was opened.
+    const REFRESH_MS = 15 * 60 * 1000;
+    const id = setInterval(() => void loadWeather(city), REFRESH_MS);
+    const onVisible = () => {
+      if (document.visibilityState === "visible") void loadWeather(city);
+    };
+    document.addEventListener("visibilitychange", onVisible);
+    return () => {
+      clearInterval(id);
+      document.removeEventListener("visibilitychange", onVisible);
+    };
   }, [ready, city, loadWeather]);
 
   const setCity = useCallback((c: City) => setSettings({ city: c }), [setSettings]);

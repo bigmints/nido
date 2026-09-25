@@ -32,8 +32,17 @@ export function useShoppingList(weekStart: string, subtractFridge = true): Shopp
         dates: weekDates(weekStart),
         fridge: subtractFridge ? data.fridge : [],
         people: data.settings.people,
+        peopleByDay: data.peopleByDay,
       }),
-    [data.plan, data.fridge, data.settings.people, recipes, weekStart, subtractFridge],
+    [
+      data.plan,
+      data.fridge,
+      data.settings.people,
+      data.peopleByDay,
+      recipes,
+      weekStart,
+      subtractFridge,
+    ],
   );
 }
 

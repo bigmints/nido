@@ -24,6 +24,7 @@ export const es = {
   "home.weather": "El tiempo de hoy",
   "home.outfit": "Tu outfit de hoy",
   "home.outfit.suggested": "Te propongo esto para el tiempo de hoy:",
+  "home.outfit.now": "Ahora en {city}: {temp}, {kind}",
   "home.outfit.empty": "Añade prendas a tu armario y Nido te propondrá qué ponerte cada día.",
   "home.meals": "Comidas de hoy",
   "home.meals.free": "Sin planificar",
@@ -107,9 +108,15 @@ export const es = {
   "planner.choose": "Elegir receta",
   "planner.added": "Añadido al planificador",
 
+  "people.less": "Una persona menos",
+  "people.more": "Una persona más",
+  "people.forDay": "Personas a comer este día",
+  "people.today": "Hoy cocinas para",
+  "people.hint": "Las recetas y la compra de cada día se ajustan a este número.",
+
   "shopping.title": "Lista de la compra",
-  "shopping.people": "Personas",
-  "shopping.peopleN": "{n} personas",
+  "shopping.people": "Personas por defecto",
+  "shopping.peopleN": "{n} por defecto",
   "shopping.subtract": "Descontar la nevera",
   "shopping.progress": "{done} de {total}",
   "shopping.copy": "Copiar lista",
@@ -265,8 +272,9 @@ export const es = {
   "settings.cityNone": "Sin ciudad todavía.",
   "settings.cityPrivacy":
     "Solo se envían las coordenadas de tu ciudad a Open-Meteo para consultar el tiempo. Nada más.",
-  "settings.people": "Personas en casa",
-  "settings.peopleHint": "Las recetas y la lista de la compra se ajustan a este número.",
+  "settings.people": "Personas en casa (por defecto)",
+  "settings.peopleHint":
+    "Se usa salvo que cambies el número para un día concreto en el planificador.",
   "settings.repeat": "No repetir outfit",
   "settings.repeatHint": "Días mínimos entre dos veces el mismo outfit.",
 

@@ -5,6 +5,7 @@ import { useMemo, useState } from "react";
 import { fromISO, startOfWeek, todayISO } from "@/lib/dates";
 import { dateLocale } from "@/lib/i18n";
 import { recentItemIds } from "@/lib/outfits/calendar";
+import { peopleFor, withPeople } from "@/lib/people";
 import { suggestOutfits } from "@/lib/outfits/engine";
 import type { WardrobeItem } from "@/lib/outfits/types";
 import { MEAL_SLOTS } from "@/lib/recipes/types";
@@ -17,6 +18,7 @@ import { CitySearch } from "./CitySearch";
 import { useShoppingList } from "./hooks";
 import { RecipeArt } from "./art";
 import { OutfitStrip } from "./wardrobe/Board";
+import { PeopleStepper } from "./PeopleStepper";
 import { Icon } from "./ui";
 
 function greetingKey(): "home.greet.morning" | "home.greet.afternoon" | "home.greet.evening" {
@@ -237,6 +239,15 @@ export function Home() {
               {t("home.seeAll")}
             </Link>
           </div>
+          {weather.status === "ok" && cityName && (
+            <p className="mb-2 text-xs text-muted">
+              {t("home.outfit.now", {
+                city: cityName,
+                temp: formatTemp(weather.data.feelsC, units),
+                kind: t(`weather.${weather.data.kind}`),
+              })}
+            </p>
+          )}
           {planned ? (
             <div className="space-y-2">
               <div className="text-sm font-semibold">{planned.name}</div>
@@ -261,11 +272,21 @@ export function Home() {
           style={{ animationDelay: "120ms" }}
           aria-label={t("home.meals")}
         >
-          <div className="mb-3 flex items-center justify-between">
+          <div className="mb-3 flex items-center justify-between gap-2">
             <h2 className="text-xl font-semibold">🍽️ {t("home.meals")}</h2>
-            <Link href="/cocina/" className="text-xs font-semibold text-accent hover:underline">
-              {t("home.plan")}
-            </Link>
+            <div className="flex items-center gap-2">
+              <PeopleStepper
+                compact
+                label={t("people.today")}
+                value={peopleFor(data.peopleByDay, data.settings.people, today)}
+                onChange={(n) =>
+                  update("peopleByDay", (p) => withPeople(p, today, n, data.settings.people))
+                }
+              />
+              <Link href="/cocina/" className="text-xs font-semibold text-accent hover:underline">
+                {t("home.plan")}
+              </Link>
+            </div>
           </div>
           <ul className="space-y-2">
             {MEAL_SLOTS.map((s) => {

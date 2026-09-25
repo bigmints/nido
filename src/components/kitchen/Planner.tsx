@@ -17,12 +17,14 @@ import {
 import { useMemo, useState } from "react";
 import { addDays, fromISO, todayISO, weekDates } from "@/lib/dates";
 import { dateLocale } from "@/lib/i18n";
+import { peopleFor, withPeople } from "@/lib/people";
 import { canon } from "@/lib/recipes/catalog";
 import { rankRecipes } from "@/lib/recipes/match";
 import { MEAL_SLOTS, type MealSlot, type Recipe } from "@/lib/recipes/types";
 import { planKey } from "@/lib/shopping/build";
 import { useApp } from "../AppProvider";
 import { RecipeArt } from "../art";
+import { PeopleStepper } from "../PeopleStepper";
 import { Icon, Sheet } from "../ui";
 
 function MiniRecipe({ recipe, dragging = false }: { recipe: Recipe; dragging?: boolean }) {
@@ -280,6 +282,16 @@ export function Planner({
             <header className="mb-2 flex items-baseline justify-between px-0.5 lg:block">
               <h3 className="text-base font-semibold capitalize">{fmtDay(d)}</h3>
               <span className="text-xs text-muted">{fmtDate(d)}</span>
+              <div className="mt-1.5">
+                <PeopleStepper
+                  compact
+                  label={`${t("people.forDay")}: ${fmtDay(d)} ${fmtDate(d)}`}
+                  value={peopleFor(data.peopleByDay, data.settings.people, d)}
+                  onChange={(n) =>
+                    update("peopleByDay", (p) => withPeople(p, d, n, data.settings.people))
+                  }
+                />
+              </div>
             </header>
             <div className="grid grid-cols-3 gap-1.5 lg:grid-cols-1">
               {MEAL_SLOTS.map((s) => {

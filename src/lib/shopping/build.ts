@@ -1,3 +1,4 @@
+import { peopleFor, type PeopleByDay } from "../people";
 import { canon, findCatalog, ingredientMatches } from "../recipes/catalog";
 import type { FridgeItem, MealSlot, Recipe, Section } from "../recipes/types";
 import { SECTIONS } from "../recipes/types";
@@ -26,8 +27,10 @@ export interface BuildOptions {
   recipes: Recipe[];
   dates: string[];
   fridge: FridgeItem[];
-  /** how many people you cook for (recipes are scaled from their `servings`) */
+  /** default number of people (recipes are scaled from their `servings`) */
   people?: number;
+  /** per-day overrides of `people`, keyed by date */
+  peopleByDay?: PeopleByDay;
   includeStaples?: boolean;
 }
 
@@ -48,7 +51,8 @@ export function buildShoppingList(o: BuildOptions): ShoppingSection[] {
     for (const slot of ["breakfast", "lunch", "dinner"] as MealSlot[]) {
       const recipe = byId.get(o.plan[planKey(date, slot)] ?? "");
       if (!recipe) continue;
-      const factor = o.people ? o.people / recipe.servings : 1;
+      const people = o.people ? peopleFor(o.peopleByDay, o.people, date) : 0;
+      const factor = people ? people / recipe.servings : 1;
       for (const ing of recipe.ingredients) {
         const cat = findCatalog(ing.name);
         if (cat?.staple && !o.includeStaples) continue;

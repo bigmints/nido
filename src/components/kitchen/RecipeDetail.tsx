@@ -3,6 +3,7 @@
 import { useRef, useState } from "react";
 import { addDays, fromISO, startOfWeek, todayISO, weekDates } from "@/lib/dates";
 import { dateLocale } from "@/lib/i18n";
+import { peopleFor, withPeople } from "@/lib/people";
 import { ingredientMatches } from "@/lib/recipes/catalog";
 import { MEAL_SLOTS, type MealSlot, type Recipe } from "@/lib/recipes/types";
 import { planKey } from "@/lib/shopping/build";
@@ -11,6 +12,7 @@ import { formatQty } from "@/lib/shopping/units";
 import { compressImage } from "@/lib/storage/image";
 import { useApp } from "../AppProvider";
 import { RecipeArt, usePhoto } from "../art";
+import { PeopleStepper } from "../PeopleStepper";
 import { Icon, Sheet } from "../ui";
 import { DietBadges } from "./RecipeCard";
 
@@ -33,7 +35,8 @@ export function RecipeDetail({ recipe, onClose }: { recipe: Recipe | null; onClo
       day: "numeric",
       month: "short",
     });
-  const scale = data.settings.people / recipe.servings;
+  const people = peopleFor(data.peopleByDay, data.settings.people, day);
+  const scale = people / recipe.servings;
   const imperial = data.settings.units === "imperial";
 
   const onFile = async (file?: File) => {
@@ -86,7 +89,7 @@ export function RecipeDetail({ recipe, onClose }: { recipe: Recipe | null; onClo
             <span>·</span>
             <span>{t(`diff.${recipe.difficulty}`)}</span>
             <span>·</span>
-            <span>{t("recipe.servings", { n: data.settings.people })}</span>
+            <span>{t("recipe.servings", { n: people })}</span>
           </div>
           <div className="mt-2 flex flex-wrap gap-1">
             <DietBadges recipe={recipe} />
@@ -168,6 +171,16 @@ export function RecipeDetail({ recipe, onClose }: { recipe: Recipe | null; onClo
                   ))}
                 </select>
               </div>
+              <div>
+                <label className="label">{t("people.forDay")}</label>
+                <PeopleStepper
+                  label={t("people.forDay")}
+                  value={people}
+                  onChange={(n) =>
+                    update("peopleByDay", (p) => withPeople(p, day, n, data.settings.people))
+                  }
+                />
+              </div>
               <button
                 className="btn btn-primary"
                 onClick={() => {
@@ -178,6 +191,7 @@ export function RecipeDetail({ recipe, onClose }: { recipe: Recipe | null; onClo
                 <Icon name="calendar" className="h-4 w-4" /> {t("common.add")}
               </button>
             </div>
+            <p className="mt-2 text-xs text-muted">{t("people.hint")}</p>
           </section>
           {recipe.custom && (
             <button

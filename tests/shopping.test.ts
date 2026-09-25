@@ -117,6 +117,21 @@ describe("buildShoppingList: merging", () => {
     expect(list[0].qty).toBe(600);
   });
 
+  it("scales each day by its own headcount override, not just the default", () => {
+    const list = flat(
+      buildShoppingList({
+        plan: plan(["2026-03-02", "lunch", "a"], ["2026-03-03", "lunch", "a"]),
+        recipes: [mk("a", 2, ["100 g arroz"])],
+        dates,
+        fridge: [],
+        people: 2, // default for days without an override
+        peopleByDay: { "2026-03-02": 4 }, // day 1 cooks for 4, day 2 uses the default (2)
+      }),
+    );
+    // day 1: 100g * 4/2 = 200g, day 2: 100g * 2/2 = 100g -> merged = 300g
+    expect(list[0].qty).toBe(300);
+  });
+
   it("groups by supermarket section in aisle order", () => {
     const sections = buildShoppingList({
       plan: plan(["2026-03-02", "lunch", "a"]),

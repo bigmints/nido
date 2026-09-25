@@ -2,6 +2,7 @@ import type { Recipe, FridgeItem } from "../recipes/types";
 import type { Plan } from "../shopping/build";
 import type { OutfitCalendar } from "../outfits/calendar";
 import type { Outfit, WardrobeItem } from "../outfits/types";
+import type { PeopleByDay } from "../people";
 import type { City } from "../weather";
 
 export type Lang = "es" | "en";
@@ -17,9 +18,14 @@ export interface Settings {
   people: number;
 }
 
+/** Segovia is the default place until the user picks another one. */
+export const DEFAULT_CITY: City = { name: "Segovia", lat: 40.9429, lon: -4.1088 };
+
 export interface AppData {
   fridge: FridgeItem[];
   plan: Plan;
+  /** headcount overrides per day; other days use `settings.people` */
+  peopleByDay: PeopleByDay;
   /** shopping items ticked off */
   checked: Record<string, boolean>;
   wardrobe: WardrobeItem[];
@@ -31,7 +37,7 @@ export interface AppData {
 
 export const DEFAULT_SETTINGS: Settings = {
   lang: "es",
-  city: null,
+  city: DEFAULT_CITY,
   units: "metric",
   theme: "system",
   avoidRepeatDays: 5,
@@ -42,6 +48,7 @@ export function defaultData(): AppData {
   return {
     fridge: [],
     plan: {},
+    peopleByDay: {},
     checked: {},
     wardrobe: [],
     outfits: [],
