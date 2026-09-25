@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useRef, type ReactNode } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
+import { createPortal } from "react-dom";
 
 const PATHS: Record<string, string> = {
   home: "M3 11.5 12 4l9 7.5M5.5 10v9.5a1 1 0 0 0 1 1H10v-6h4v6h3.5a1 1 0 0 0 1-1V10",
@@ -156,6 +157,14 @@ export function Sheet({
   const ref = useRef<HTMLDivElement>(null);
   const closeRef = useRef(onClose);
   closeRef.current = onClose;
+  // Portal to <body>: some pages wrap this component in an "animate-rise" ancestor
+  // whose CSS animation leaves a non-"none" transform behind once it finishes. Any
+  // transform on an ancestor turns it into the containing block for our fixed-position
+  // overlay below, shrinking it to that ancestor's box instead of the full viewport
+  // (very visible, and barely usable, on phones). Rendering into <body> sidesteps that
+  // regardless of where <Sheet> is used from.
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
   useEffect(() => {
     if (!open) return;
     const prev = document.activeElement as HTMLElement | null;
@@ -171,8 +180,8 @@ export function Sheet({
       prev?.focus?.();
     };
   }, [open]);
-  if (!open) return null;
-  return (
+  if (!open || !mounted) return null;
+  return createPortal(
     <div
       className="fixed inset-0 z-50 flex items-end justify-center sm:items-center"
       role="presentation"
@@ -204,7 +213,8 @@ export function Sheet({
         </div>
         <div className="overflow-y-auto p-5">{children}</div>
       </div>
-    </div>
+    </div>,
+    document.body,
   );
 }
 
