@@ -102,6 +102,8 @@ reported in plain language. For Ollama, start it with `OLLAMA_ORIGINS=*` (or thi
 
 ## Quick start
 
+[![Launch on PicoRunner](https://picorunner.com/badges/launch.svg)](https://picorunner.com/launch/?repository=https%3A%2F%2Fgithub.com%2FHMJ07%2Fnido)
+
 ```bash
 git clone https://github.com/HMJ07/nido.git
 cd nido
